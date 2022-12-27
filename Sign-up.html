@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" samesite="none"
+        rel="stylesheet">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Sign-up.css">
+    <script defer src="Sign-up.js"></script>
+</head>
+
+<body>
+
+    <div class="form">
+
+        <h1>Sign Up</h1>
+
+        <form action="/" method="post">
+
+            <div class="top-row">
+                <div class="label-field">
+                    <label>
+                        First Name<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" />
+                </div>
+
+                <div class="label-field">
+                    <label>
+                        Last Name<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" />
+                </div>
+            </div>
+
+            <div class="label-field">
+                <label>
+                    Email Address<span class="req">*</span>
+                </label>
+                <input type="email" required autocomplete="off" />
+            </div>
+
+            <div class="label-field">
+                <label>
+                    Password<span class="req">*</span>
+                </label>
+                <input type="password" required autocomplete="off" />
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary button-block">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
